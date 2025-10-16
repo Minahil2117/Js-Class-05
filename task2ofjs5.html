@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Border Changer</title>
+  <style>
+    body {
+      background-color:#f2f2f2; /* light gray background */
+      font-family: Arial, sans-serif;
+    }
+    .myImage {
+      width: 350px; /* increased image size */
+      height: 250px; /* increased image size */
+      margin: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box shadow for depth */
+    }
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    h1 {
+      text-align: center;
+      color: #00698f; /* blue heading color */
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50; /* green button color */
+      color: #fff;
+      cursor: pointer;
+      margin: 20px;
+    }
+    button:hover {
+      background-color: #3e8e41; /* darker green on hover */
+    }
+  </style>
+</head>
+<body>
+  <h1> Task 02: Changing the Borders</h1>
+  <div class="image-container">
+    <img src="pic (1).jpg" class="myImage">
+    <img src="pic (2).jpg" class="myImage">
+    <img src="pic (3).jpg" class="myImage">
+    <img src="pic (4).jpg" class="myImage">
+  </div>
+  <div style="text-align: center;">
+    <button onclick="changeBorders()">Change Borders</button>
+  </div>
+  <script src="jstask5.js"></script>
+</body>
+</html>
