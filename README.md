@@ -39,22 +39,6 @@ A webpage displaying four images with the class name `"myImage"`. Upon button cl
 
 ---
 
-## 🚀 How to Run
-
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/yourusername/js-class5-tasks.git
-   ```
-
-2. **Navigate to the project folder:**
-   ```bash
-   cd js-class5-tasks
-   ```
-
-3. **Open the HTML files in your browser:**
-   - `task1.html` for the text color changer
-   - `task2.html` for the image border styler
-
 ---
 
 ## 💡 Key Learning Outcomes
@@ -92,7 +76,7 @@ A webpage displaying four images with the class name `"myImage"`. Upon button cl
 
 Hi! I'm a passionate web developer learning and growing my skills in JavaScript and web technologies. Feel free to connect with me!
 
-Connect with me: linkedin.com/in/minahil-fatima-ba1801339
+Connect with me: [linkedin.com/in/minahil-fatima-ba1801339]
 ---
 
 ## 📜 License
